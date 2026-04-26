@@ -4,7 +4,7 @@ public class BucketItem
 {
       private BucketItem next = null;
 
-      private Object data = null;
+      private HashItem data = null;
   
       public BucketItem()
       {
