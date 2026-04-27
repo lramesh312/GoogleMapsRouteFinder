@@ -2,11 +2,15 @@ package com.lalithsoftware.finally;
 
 public class BucketList
   {
-      private BucketList next = null;
+      private BucketItem head = null;
     
       public BucketList()
       {
 
       }
-      
+
+      public void addItem(HashItem toAdd)
+      {
+
+      }
   }
