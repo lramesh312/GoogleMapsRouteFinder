@@ -11,6 +11,6 @@ public class BucketList
 
       public void addItem(HashItem toAdd)
       {
-
+          BucketItem currentNode = head;
       }
   }
