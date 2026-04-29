@@ -10,4 +10,9 @@ public class BucketItem
       {
           
       }
+
+      public BucketItem getNext()
+      {
+            return next;
+      }
 }
