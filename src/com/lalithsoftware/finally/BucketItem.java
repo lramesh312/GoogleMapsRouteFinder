@@ -15,4 +15,9 @@ public class BucketItem
       {
             return next;
       }
+
+      public void setNext(BucketItem newNext)
+      {
+            next = newNext;
+      }
 }
