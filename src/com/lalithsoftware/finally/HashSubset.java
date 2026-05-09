@@ -15,4 +15,9 @@ public class HashSubset
     {
         return itemList;
     }
+
+    public int getSizeEstimate()
+    {
+        int toReturn = 0;
+    }
 }
