@@ -10,4 +10,9 @@ public class HashSubset
         itemList = new ArrayList<SubsetItem>();
         size = new Integer(0);
     }
+
+    public ArrayList<SubsetItem> getItemList()
+    {
+        return itemList;
+    }
 }
