@@ -8,4 +8,9 @@ public class HashItem
     {
 
     }
+
+    public Integer getSize()
+    {
+        return size;
+    }
   }
