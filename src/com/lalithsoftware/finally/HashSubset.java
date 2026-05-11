@@ -18,6 +18,10 @@ public class HashSubset
 
     public int getSizeEstimate()
     {
+        for(int k = 0; k < itemList.size(); k++)
+        {
+            SubsetItem listItem = itemList.get(k);
+        }
         int toReturn = 0;
     }
 }
