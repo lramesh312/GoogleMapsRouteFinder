@@ -20,4 +20,14 @@ public class BucketItem
       {
             next = newNext;
       }
+
+      public HashItem getData()
+      {
+            return data;
+      }
+
+      public void setData(HashItem newData)
+      {
+            data = newData;
+      }
 }
